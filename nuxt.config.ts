@@ -7,10 +7,6 @@ export default defineNuxtConfig({
     head: {
       script: [
         {
-          src: "https://embed.tawk.to/66810b7aeaf3bd8d4d1677ab/1i1k19m19",
-          async: true,
-        },
-        {
           src: "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js",
           async: true,
         },
