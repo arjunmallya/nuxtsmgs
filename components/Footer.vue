@@ -38,7 +38,10 @@
             <h4 class="h5">Legal</h4>
             <ul class="list-unstyled">
               <li>
-                <NuxtLink class="text-white" href="/privacy">
+                <NuxtLink
+                  class="text-white text-decoration-none"
+                  href="/privacy"
+                >
                   Privacy Policy
                 </NuxtLink>
               </li>
