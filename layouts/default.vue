@@ -12,7 +12,8 @@
     <slot />
     <a
       href="https://wa.me/9739429439?text=Hello,%20I%20want%20to%20know%20about%20your%20services.&type=phone_number&app_absent=1"
-      class="whatsapp-button"
+      class="contact-button"
+      style="background-color: #25d366; bottom: 100px"
       target="_blank"
     >
       <img src="/imgs/whatsapp.png" alt="WhatsApp" />

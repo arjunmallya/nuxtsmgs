@@ -128,22 +128,20 @@ body {
 }
 
 /* Style for the floating button */
-.whatsapp-button {
+.contact-button {
   position: fixed;
-  bottom: 120px;
   right: 24px;
   z-index: 1000;
-  background-color: #25d366;
   border-radius: 50%;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
-.whatsapp-button img {
+.contact-button img {
   width: 63px;
   height: 63px;
 }
 
-.whatsapp-button:hover {
+.contact-button:hover {
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
   transform: scale(1.1);
 }
