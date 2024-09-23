@@ -130,6 +130,7 @@ body {
 /* Style for the floating button */
 .contact-button {
   position: fixed;
+  bottom: 30px;
   right: 24px;
   z-index: 1000;
   border-radius: 50%;
