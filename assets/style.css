@@ -5,12 +5,8 @@ body {
   overflow-y: auto;
   user-select: none;
   font-family: "Roboto slab", serif;
-  text-decoration: none;
 }
 
-a {
-  text-decoration: none;
-}
 .button {
   background-color: #041858;
   box-shadow: none;

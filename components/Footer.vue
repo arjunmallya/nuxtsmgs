@@ -10,17 +10,25 @@
             <h4 class="h5">Quick Links</h4>
             <ul class="list-unstyled">
               <li>
-                <NuxtLink class="text-white" href="/"> Home </NuxtLink>
+                <NuxtLink class="text-white text-decoration-none" href="/">
+                  Home
+                </NuxtLink>
               </li>
               <li>
-                <NuxtLink class="text-white" href="/about"> About Us </NuxtLink>
+                <NuxtLink class="text-white text-decoration-none" href="/about">
+                  About Us
+                </NuxtLink>
               </li>
 
               <li>
-                <NuxtLink class="text-white" href="/faqs"> Faq's </NuxtLink>
+                <NuxtLink class="text-white text-decoration-none" href="/faqs">
+                  Faq's
+                </NuxtLink>
               </li>
               <li>
-                <NuxtLink class="text-white" href="/contact"
+                <NuxtLink
+                  class="text-white text-decoration-none"
+                  href="/contact"
                   >Contact us</NuxtLink
                 >
               </li>
