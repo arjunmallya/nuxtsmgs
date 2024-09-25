@@ -1,4 +1,7 @@
 <template>
+  <head>
+    <link rel="canonical" href="https://smgsdigimarketers.in/about" />
+  </head>
   <div class="py-5 mx-4">
     <h2 class="text-center py-2">Frequently Asked Questions(Faqs)</h2>
     <div className="accordion" id="accordionExample">

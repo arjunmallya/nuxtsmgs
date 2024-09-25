@@ -1,4 +1,7 @@
 <template>
+  <head>
+    <link rel="canonical" href="https://smgsdigimarketers.in/about" />
+  </head>
   <div>
     <div class="mx-5 mt-5">
       <h1>Privacy Policy</h1>

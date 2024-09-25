@@ -1,4 +1,7 @@
 <template>
+  <head>
+    <link rel="canonical" href="https://smgsdigimarketers.in/about" />
+  </head>
   <div>
     <section>
       <div class="container my-5">

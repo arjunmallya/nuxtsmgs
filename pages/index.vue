@@ -1,4 +1,7 @@
 <template>
+  <head>
+    <link rel="canonical" href="https://smgsdigimarketers.in/about" />
+  </head>
   <div>
     <!--Hero section-->
     <section>
