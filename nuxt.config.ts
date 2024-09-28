@@ -14,11 +14,43 @@ export default defineNuxtConfig({
           src: "https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js",
           async: true,
         },
+        {
+          type: "application/ld+json",
+          innerHTML: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ProfessionalService",
+            name: "Smgs Digi Marketers",
+            image: "https://smgsdigimarketers.in/imgs/logo.png",
+            "@id": "",
+            url: "https://smgsdigimarketers.in/",
+            telephone: "9739429439",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress:
+                "001, Aksha Amber Apartments, 28/27/1, Sri Kalyana Lakshmi Venkateshwara Temple St, beside Kalyania Lakshmi Venkateswara Mandir, Venkategowda Layout, Pampa Extension, Hebbal Kempapura",
+              addressLocality: "Bengaluru",
+              postalCode: "560024",
+              addressCountry: "IN",
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+              ],
+              opens: "09:00",
+              closes: "21:00",
+            },
+          }),
+        },
       ],
       link: [
         {
           rel: "stylesheet",
-          href: "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css",
+          href: "https://cdn.jsdelivr.net/npm/bootstrap@5.}0.2/dist/css/bootstrap.min.css",
         },
         {
           rel: "stylesheet",
