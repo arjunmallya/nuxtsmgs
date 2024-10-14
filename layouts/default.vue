@@ -21,3 +21,17 @@
     <Footer />
   </div>
 </template>
+<script>
+export default {
+  head() {
+    return {
+      link: [
+        {
+          rel: "canonical",
+          href: `https://smgsdigimarketers.in/${this.$route.path}`, // Adjust according to your BASE_URL
+        },
+      ],
+    };
+  },
+};
+</script>
