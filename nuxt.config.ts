@@ -70,6 +70,29 @@ export default defineNuxtConfig({
           href: "/imgs/logo.png",
         },
       ],
+      meta: [
+        { charset: "utf-8" },
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
+        {
+          name: "description",
+          content:
+            "Smgs Digi Marketers is a results-driven digital marketing agency specializing in SEO, PPC, social media, and web design. Boost your online presence and grow your business today!",
+        },
+        {
+          name: "keywords",
+          content:
+            "Smgs,Digital marketing in Bangalore,Digital marketing in Bengaluru,Smgs Digi Marketers",
+        },
+        { name: "author", content: "Smgs Digi Marketers" },
+        { property: "og:title", content: "Smgs Digi Marketers" }, // Open Graph for social media
+        {
+          property: "og:description",
+          content:
+            "Smgs Digi Marketers is a results-driven digital marketing agency specializing in SEO, PPC, social media, and web design. Boost your online presence and grow your business today!",
+        },
+        { property: "og:image", content: "/imgs/logo.png" },
+        { property: "og:url", content: "https://smgsdigimarketers.in" },
+      ],
     },
   },
 });
