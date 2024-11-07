@@ -182,7 +182,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 useHead({
   title: "Home | Smgs Digi Marketers",
   meta: [
@@ -205,7 +205,7 @@ useHead({
   ],
 });
 </script>
-<script>
+<script lang="ts">
 export default {
   head() {
     return {

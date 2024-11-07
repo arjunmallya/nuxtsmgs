@@ -24,7 +24,7 @@ useHead({
   ],
 });
 </script>
-<script>
+<script lang="ts">
 export default {
   head() {
     return {
