@@ -1,7 +1,4 @@
 <template>
-  <head>
-    <link rel="canonical" href="https://smgsdigimarketers.in/about" />
-  </head>
   <div>
     <section>
       <div class="container my-5">
@@ -65,7 +62,15 @@ useHead({
   ],
 });
 </script>
-
+<script>
+export default {
+  head() {
+    return {
+      link: [{ rel: "canonical", href: "https://smgsdigimarketers.in/about" }],
+    };
+  },
+};
+</script>
 <style>
 /* Create two equal columns that floats next to each other */
 .column {

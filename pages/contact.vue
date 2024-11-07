@@ -1,7 +1,4 @@
 <template>
-  <head>
-    <link rel="canonical" href="https://smgsdigimarketers.in/about" />
-  </head>
   <ContactForm />
 </template>
 <script lang="ts" setup>
@@ -26,4 +23,15 @@ useHead({
     { name: "author", content: "Smgs Digi Marketers" },
   ],
 });
+</script>
+<script>
+export default {
+  head() {
+    return {
+      link: [
+        { rel: "canonical", href: "https://smgsdigimarketers.in/contact" },
+      ],
+    };
+  },
+};
 </script>

@@ -1,7 +1,4 @@
 <template>
-  <head>
-    <link rel="canonical" href="https://smgsdigimarketers.in/about" />
-  </head>
   <div>
     <div class="mx-5 mt-5">
       <h1>Privacy Policy</h1>
@@ -120,5 +117,15 @@ useHead({
   ],
 });
 </script>
-
+<script>
+export default {
+  head() {
+    return {
+      link: [
+        { rel: "canonical", href: "https://smgsdigimarketers.in/privacy" },
+      ],
+    };
+  },
+};
+</script>
 <style></style>

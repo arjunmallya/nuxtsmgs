@@ -1,7 +1,4 @@
 <template>
-  <head>
-    <link rel="canonical" href="https://smgsdigimarketers.in/about" />
-  </head>
   <div>
     <!--Hero section-->
     <section>
@@ -208,7 +205,15 @@ useHead({
   ],
 });
 </script>
-
+<script>
+export default {
+  head() {
+    return {
+      link: [{ rel: "canonical", href: "https://smgsdigimarketers.in/" }],
+    };
+  },
+};
+</script>
 <style>
 .service-img {
   background-color: white;
