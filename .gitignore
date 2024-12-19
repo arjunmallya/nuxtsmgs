@@ -24,4 +24,4 @@ logs
 !.env.example
 
 # Ignore the register page
-pages/register.vue
+pages/blog/register.vue
