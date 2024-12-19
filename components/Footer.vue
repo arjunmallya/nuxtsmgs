@@ -102,14 +102,14 @@
         </div>
         <div class="py-1 text-center">
           <div>
-            &copy; 2023
+            Copyright
             <NuxtLink
               class="text-decoration-none text-light"
               href="https://smgsdigimarketers.in"
             >
               Smgs Digi Marketers
             </NuxtLink>
-            . All rights reserved.
+            &copy; All rights reserved.
           </div>
         </div>
       </div>

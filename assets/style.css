@@ -17,6 +17,7 @@ body {
   padding-bottom: 9px;
   border-radius: 50px;
   text-decoration: none;
+  color: white;
 }
 
 .button:hover {
